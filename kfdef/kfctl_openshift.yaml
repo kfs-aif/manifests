@@ -51,7 +51,7 @@ spec:
       - istio
       parameters:
       - name: containerRuntimeExecutor
-        value: k8sapi
+        value: pns
       repoRef:
         name: manifests
         path: argo
